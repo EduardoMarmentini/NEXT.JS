@@ -24,7 +24,7 @@ export default function questao(){
     return (
         <div>
             <h1>Questao</h1>
-            <span>{questao?.enunciado}</span>
+            <span> {questao?.id} - {questao?.enunciado}</span>
             <div>
                 <ul>
                     {renderizarResp()}
