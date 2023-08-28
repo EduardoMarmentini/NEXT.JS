@@ -5,7 +5,7 @@
 */
 import { useRouter } from "next/router"
 
-export default function nome(){
+export default function Nome(){
 
     const router = useRouter()
 
